@@ -1,5 +1,5 @@
 /*
-Métodos numéricos 2 
+MÃ©todos numÃ©ricos 2 
 Gomez Vega Guadalupe
 Paquete de pogramas 
 	Newton
@@ -25,7 +25,7 @@ Paquete de pogramas
 /* Encabezados */
 int datos(void);/*Datos del equipo*/
 void newton(int);/*Newton*/
-int menu(void);/*Menú de sistemas*/
+int menu(void);/*MenÃº de sistemas*/
 void F1(double, double, double, int);/*Newton*/
 void F2(double, double, double, int);/*Newton*/
 void F3(double, double, double, double, int);/*Newton*/
@@ -134,7 +134,7 @@ int main ()
 int datos()
 {
 	int opcion;
-	printf("\tMetodos numericos 2 Grupo: 2401\n\tEquipo:\n\t\tGomez Vega Guadalupe\n\t\tSantos Mejia Jonathan\n\n");	
+	printf("\tMetodos numericos 2 Grupo: 2401\n\tEquipo:\n\t\tGomez Vega Guadalupe\n\n\n");	
 	printf("\n\tQue metodo desea?\n\t\t1).....Metodo de Newton Raphson\n\t\t2).....Diferencias Divididas\n\t\t3).....Spline Cubico\n\t\t4).....Diferenciacion e Integracion\n\t\t5).....Salir\n\tOpcion: ");
 	do 
 	{
@@ -1696,7 +1696,7 @@ void tablaNueva(double tabla[][C], int pts)
 				printf("%10s %lf <= x <= %lf \n","", xi, xi2);
 		}
 }
-/*Diferenciacion e integración*/
+/*Diferenciacion e integraciÃ³n*/
 void diferenciacionIntegracion(int centinela, int centiInter) 
 {
 	char resp;
